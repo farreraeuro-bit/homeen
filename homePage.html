@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard 6 Paneles</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            width: 100vw;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+        }
+        a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            background-color: #f0f0f0;
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+        a:hover img {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <a href="https://trello.com/b/iTC7gowu/my-trello-board" target="_blank">
+        <img src="img/trello.png" alt="Trello">
+    </a>
+    <a href="https://www.notion.so/FAST-EG-21bab8358b168005a686c3764d7fed8c" target="_blank">
+        <img src="img/notionEG.png" alt="Notion FAST-EG">
+    </a>
+    <a href="https://www.notion.so/PDUPL-Notes-20fab8358b168022806ac6b86b81e7f5" target="_blank">
+        <img src="img/notionNotes.png" alt="Notion PDUPL">
+    </a>
+    <a href="https://www.vpcloud.es/index.php" target="_blank">
+        <img src="img/vpcloud.png" alt="VPCloud">
+    </a>
+    <a href="https://eeft-my.sharepoint.com/my?id=%2Fpersonal%2Fefarrera_euronetworldwide_com%2FDocuments%2FPDUPL%2FIn%20Progress" target="_blank">
+        <img src="img/sharepoint.png" alt="SharePoint">
+    </a>
+    <a href="https://m365.cloud.microsoft/chat/?url=https%3A%2F%2Fcopilot.microsoft.com%2F" target="_blank">
+        <img src="img/copilot.png" alt="Microsoft 365">
+    </a>
+</body>
+</html>
+
+
